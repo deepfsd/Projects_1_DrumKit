@@ -1,0 +1,141 @@
+.gradient-background {
+    background: linear-gradient(300deg, #79E0EE, #98EECC, #D0F5BE);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(82, 79, 79);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 450px 100px;
+    height: 100vh;
+    gap: 20px;
+    background-color: black;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000ab;
+    font-size: 2    em;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+.grid-edrum {
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+
+
+}
+
+.drum {
+    border-radius: 20px;
+}
+
+body>div>div.grid-edrum>button.q.drum {
+    /* transition-property: box-shadow, opacity ; */
+
+    background-color: #F94A29;
+}
+
+
+
+body>div>div.grid-edrum>button.w.drum {
+    /* transition-property: box-shadow, opacity ; */
+
+    background-color: #F94A29;
+
+}
+
+
+
+
+
+body>div>div.grid-edrum>button.e.drum {
+    /* transition-property: box-shadow, opacity ; */
+    /* transition-duration: 0.6; */
+    background-color: #F94A29;
+}
+
+
+
+body>div>div.grid-edrum>button.a.drum {
+    /* transition-property: box-shadow, opacity ; */
+    /* transition-duration: 0.6; */
+    background-color: #FCE22A;
+}
+
+
+
+body>div>div.grid-edrum>button.s.drum {
+    /* transition-property: box-shadow, opacity ; */
+    /* transition-duration: 0.6; */
+    background-color: #FCE22A;
+}
+
+
+
+body>div>div.grid-edrum>button.d.drum {
+    /* transition-property: box-shadow, opacity ; */
+    /* transition-duration: 0.6; */
+    background-color: #FCE22A;
+}
+
+
+
+
+body>div>div.grid-edrum>button.z.drum {
+    /* transition-property: box-shadow, opacity ; */
+    /* transition-duration: 0.6; */
+    background-color: #30E3DF;
+}
+
+
+body>div>div.grid-edrum>button.x.drum {
+    /* transition-property: box-shadow, opacity ; */
+    /* transition-duration: 0.6; */
+    background-color: #30E3DF;
+}
+
+
+body>div>div.grid-edrum>button.c.drum {
+    /* transition-property: box-shadow ; */
+    /* transition-duration: 0.6; */
+    background-color: #30E3DF;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
